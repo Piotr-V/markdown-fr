@@ -1,10 +1,10 @@
-# Links
+# Liens
 
-Markdown supports two styles of links: inline and reference.
+Markdown supporte deux styles de liens: inline et reference.
 
-In both styles, the link text is delimited by [square brackets].
+Dans les deux styles, le texte du lien est délimité par des [crochets].
 
-To create an inline link, use a set of regular parentheses immediately after the link text’s closing square bracket. Inside the parentheses, put the URL where you want the link to point, along with an optional title for the link, surrounded in quotes. For example:
+Pour créer un lien inline, utlise des parenthèses juste après le texte du lien qui se trouve entre crochets. A l'intérieur des parenthèses, entre l'URL du lien, et accessoirement, ajoute un titre à ce lien, entouré par des guillemets. Exemples:
 ```markdown
 [I'm an inline-style link](https://www.google.com)
 
@@ -15,41 +15,41 @@ To create an inline link, use a set of regular parentheses immediately after the
 [I'm a relative reference to a repository file](../blob/master/LICENSE)
 ```
 
-Reference-style links use a second set of square brackets, inside which you place a label of your choosing to identify the link:
+Les liens de type reference ajoute une paire de crochets, à l'intérieur desquels tu choisiras un nom pour les identifier:
 ```markdown
 This is [an example][id] reference-style link.
 ```
 
-You can optionally use a space to separate the sets of brackets:
+Il est possible de mettre un espace entre chaque paire de crochets pour mieux les démarquer :
 ```markdown
 This is [an example] [id] reference-style link.
 ```
 
-Then, anywhere in the document, you define your link label like this, on a line by itself:
+Tu peux éventuellement mettre un titre à ton lien à l'endroit qui te convient de la manière suivante:
 ```markdown
 [id]: http://example.com/  "Optional Title Here"
 ```
 
-**GitHub** and **GitBook** supports URL autolinking. They will autolink standard URLs, so if you want to link to a URL (instead of setting link text), you can simply enter the URL and it will be turned into a link to that URL.
+**GitHub** et **GitBook** supportent les liens classiques en forme d'URL. Il suffit donc simplement d'entrer l'URL pour que le lien soit créé (au lieu d'utiliser les méthodes vues ci-dessus).
 
 
 ---
 
-Here's a quiz about markdown links.
+Un ptit quizz sur markdown:
 
-Select the valid links:
+Selectionne le lien valide:
 - [x] `[a link](http://google.fr)`
 - [ ] `(a link)[http://google.fr]`
 
-> The link text is delimited by [square brackets].
+> Les texte du lien est entouré par des [crochets].
 
-What are the correct informations from this link: ```[a link](http://google.fr "google")```
-- [ ] the link is https://google.fr
-- [x] the title of the link is "google"
-- [ ] it'll show the text "google"
-- [x] it'll show the text "a link"
+Quelles sont les informations correctes à propos de ce lien : ```[a link](http://google.fr "google")```
+- [ ] le lien est https://google.fr
+- [x] le titre du lien est "google"
+- [ ] le texte du lien est "google"
+- [x] le texte du lien est "a link"
 
-> Links can have 3 parts: the text, the url and a title.
+> Les liens peuvent avoir trois attributs: un text, une URL et un titre.
 
 ---
 
